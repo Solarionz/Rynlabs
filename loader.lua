@@ -1,5 +1,5 @@
 local games = {
-    [{155615604}] = "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"
+    [{155615604}] = "https://github.com/Solarionz/Rynlabs/blob/main/jailbreak/jailbreak.lua"
 }
 
 for ids, url in next, games do
