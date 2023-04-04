@@ -13,7 +13,7 @@ Section1:NewLabel("Movement");
 Section2:NewLabel("Extra");
 
 Section2:NewButton("Noclip", "Enables Noclip", function()
-
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Solarionz/Rynlabs/blob/main/jailbreak/noclip.lua"))()
 end)
 
 Section1:NewSlider("Run Speed", "Makes you faster", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
